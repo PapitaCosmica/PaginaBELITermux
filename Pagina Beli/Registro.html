@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Estructura De Mi Sitio</title>
+    <link rel="stylesheet" href="Diseño.css">
+
+</head>
+<body>
+   
+    <div id="container">
+        <header>
+            <a href="BELI.php"><img src="LogoBELI.png" style="
+                position: absolute;
+                width: 5cm;"> </a>
+                  <a href="Carrito.html">   <img src="Carrito.jpg" style=" position: absolute;
+                    width: 2cm;
+                       top: 1.5cm;
+                       left: 11cm;">  </a>
+            <input type="text" style="
+            width: 15cm;
+            left: 15cm;
+            top: 2.3cm;"></input>
+         <a href="Productos.html"><button style="position: absolute;
+         top: 2.3cm;
+         left: 31cm;">buscar</button></a> 
+
+        </header>
+        <nav>
+            <ul class="MenuHorizontal">
+               
+                <li><a href="Login(V).php"> Login </a> </li>
+               
+                <li><a href="Conocenos.php"> Conocenos </a> </li>
+                <li><a href="Productos.php">Nuestros productos </a>  </li>
+                <li><a href="Contactanos.php">Contactanos</a></li>
+                
+                
+            
+
+                   <ul class="MenuVertical">
+                  
+                
+                   </ul>
+           
+            </ul>
+        </nav>
+        
+       <fieldset>
+      
+        <form action="guardar_registro.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="contraseña">Contraseña:</label>
+            <input type="text" id="contraseña" name="contraseña" required><br>
+
+            <label for="direccion">Direccion:</label>
+            <input type="text" id="direccion" name="direccion" required><br>
+            
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required><br>
+            
+            <input type="submit" value="Registrarse">
+        </form>
+
+       </fieldset>
+
+
+      
+    </div>
+    
+     <footer style="position: absolute;
+    bottom: 0;
+    width: 38.98cm;">
+        <a href="lista.html">Todos los pedidos antes de las 7:00 am se entregan el mismo dia</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,141 @@
+body {
+    background: rgb(255, 255, 255);/* color de fondo*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#container{
+    width: 70%;
+    width: 1100px;
+    margin: 0px auto; 
+
+
+}
+
+header{
+    
+    height: 4cm; 
+}
+
+header input{
+ position:absolute ;
+ left:30cm; 
+ right:10cm;
+ top: 1.5cm;
+
+}
+header button{
+width: 3cm;
+position: absolute;
+left: 30cm;
+right: 5cm;
+top: 1.7cm;
+
+
+}
+    
+    #content{
+        float: left;
+        width: calc(80% - 80px);
+        min-height: 500px;
+        background: rgb(255, 255, 255);
+        padding: 10px;
+    }
+    aside{
+        float: left;
+        background: rgb(105, 12, 3);
+        width: calc(20% - 20px);
+        min-height: 500px;
+        padding: 10px;
+
+    }
+    footer {
+        background: rgb(131, 131, 131) ;
+        height: 1cm;
+        text-align: center;
+        width: 39cm;
+        
+    }
+    footer a{
+        color:rgb(255, 255, 255)
+    }
+    .clearfix {
+        clear:both;
+    }
+.article{
+    color:rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(255, 255, 255); 
+}
+.article first-child{
+    padding: 10px;
+    border-top: 2px solid #8e3f3f;
+    
+}
+.article h2{
+    font-size: 25px;
+}
+#UTOM{
+    width: 3cm;
+    text-align: center;
+}
+nav{
+    background-color: rgb(165, 83, 83);
+    height:1cm;
+    
+}
+.MenuHorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.MenuHorizontal > li > a {
+    display: block;
+    padding: 10px 15px;
+    color: rgb(91, 45, 45);
+    text-decoration: none;
+}
+.MenuHorizontal >li:hover{
+    background-color: rgb(255, 255, 255);
+    
+}
+.MenuVertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.MenuHorizontal li:hover .MenuVertical{
+    display: block
+}
+
+
+
+
+
+
+
+
+
+.wiwi{
+
+    
+    
+ width: 5cm;
+
+}
+
+
+
+.texto{
+    width: 20cm;
+
+}
+
+.Inicio{
+    width: 5cm;
+}
